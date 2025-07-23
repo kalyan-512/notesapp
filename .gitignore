@@ -25,7 +25,9 @@ dist-ssr
 
 
 # amplify
-node_modules
 .amplify
-amplify_outputs*
+# Note: amplify_outputs.json is included for development but will be replaced by real AWS config
 amplifyconfiguration*
+
+# AWS CDK
+cdk.out/
